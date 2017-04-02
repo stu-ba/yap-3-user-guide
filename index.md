@@ -1,5 +1,4 @@
 - Example User Guide
-	- [This repository](/docs/this-repository)
 	- [Markdown](/docs/markdown)
 	- [Contribute](/docs/contribute)
 - Working with
