@@ -1,3 +1,4 @@
-# User Guide
+# Guide
 
-This repository is full of markdown files. Do use website to read it since most links are broken.
+This repository is full of markdown files. Links may appear dead so visit documentation on live server.
+
