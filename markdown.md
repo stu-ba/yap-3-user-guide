@@ -134,21 +134,31 @@ Yap documentation syntax highlights these languages:
   * clike
   * javascript
   * apacheconf
-  * batch
+  * bash
+  * brainfuck
   * c
   * bison
+  * fortran
   * cpp
   * git
   * go
   * haskell
+  * java
+  * json
   * http
   * latex
   * markdown
   * matlab
+  * makefile
   * nginx
+  * objectivec
+  * perl
   * python
+  * php
+  * r
   * sql
   * vim
+  * swift
   * yaml
 
 <a name="footnote"></a>
