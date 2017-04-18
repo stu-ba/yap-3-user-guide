@@ -25,8 +25,16 @@ You can always pass some options along with command itself:
 <a name="listing"></a>
 ## Invitation
 
+Creates an invitation and sends notifying email.
+
 <a name="invitation-usage"></a>
 ### Usage
+
+Execute following command, where parameter `<email>` is required.
+
+```bash
+$ php artisan yap:invitation <email>
+```
 
 | option           | short | description                                             |
 |------------------|-------|---------------------------------------------------------|
@@ -36,6 +44,20 @@ You can always pass some options along with command itself:
 | `--dont-send`    | `-d`  | suppress all emails                                     |
 
 > {note} Suppressing emails takes precedence over force resending emails.
+
+#### Example (shorten)
+
+In following example system creates an invitation that is indefinitely valid (in regards of time), sends email to **mr.dean@stuba.sk** and outputs invitation (registration) link to command line. 
+
+```bash
+$ php artisan yap:invitation --indefinite mr.dean@stuba.sk
+```
+Command line output
+```markup
+Invitation for potential user with email 'mr.dean@stuba.sk' was created.
+Invitation link:
+http://yap.dev/auth/register/M1lhd2FTR1RHZGN0bTZa...
+```
 
 <a name="listing"></a>
 ## Documentation
@@ -49,7 +71,7 @@ Installing or downloading newest version of documentation (user guide).
 <a name="documentation-usage"></a>
 ### Usage
 
-Basic usage is simply running command with one of two possible options.
+Execute following command with either `--install` or `--update` option.
 
 ```bash
 $ php artisan yap:docs
@@ -59,5 +81,3 @@ $ php artisan yap:docs
 |-------------|-------|-------------------------------------------------------------|
 | `--install` | `-i`  | install documentation from repository                       |
 | `--update`  | `-u`  | update newest documentation from repository (performs pull) |
-
-
