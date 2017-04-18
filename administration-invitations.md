@@ -4,13 +4,13 @@
 - [Quick invitation](#quickie)
 - [Tedious invitation](#tedious)
 	- [Options](#tedious-options)
-	- [Prolong invitation](#prolong)
+	- [Amending invitation](#amending)
 	- [Recent](#recent)
 
 <a name="introduction"></a>
 ## Introduction
 
-Inviting potential users via email is trivial process, all you have to do is fill out an email and hit **Invite** button.
+Inviting potential users via email is trivial, all you have to do is fill out an email and hit **Invite** button.
 
 > {tip} You do not have to invite potential users before creating project, simply use [project creation](/docs/projects#create) interface and Yap will handle everything else.
 
@@ -19,13 +19,14 @@ Inviting potential users via email is trivial process, all you have to do is fil
 
 You may quickly invite potential user using modal dialog. To open dialog you need to click on **Invite** button located on right hand side of card header in [user listing](/docs/users#listing) view. 
 
-> {warning} You can not [prolong invitation](#prolong) using quick invitation. Filling out an email that already exists will result in error.
+> {warning} You can not [amend invitation](#amending) using quick invitation. Filling out an email that already exists will result in error.
 
 <a name="tedious"></a>
 ## Tedious invitation
 
-You may invite potential user using invitation dialog, where you can tick off [options](#tedious-options). Invitation dialog is opened after clicking on **More options** button in model dialog.
+You may invite potential user using invitation dialog, where you can tick off [options](#tedious-options). Invitation dialog is opened after clicking on **More options** button in model dialog ([quick invitation](#quickie)).
 
+> {note} Inviting an user which is already in system will result in no operation, in addition, if the one is **banned** you will be informed.
 
 <a name="tedious-options"></a>
 ### Options
@@ -36,19 +37,21 @@ For example check-box with label *Should user be administrator?* means that invi
 
 > {note} Suppressing emails takes precedence over force resending emails.
 
+<a name="amending"></a>
+### Amending invitation
+You may amend already issued invitation using [options](#tedious-options). 
 
-<a name="prolong"></a>
-### Prolong invitation
-
-Filling out email that is already present in invitations table, will result in:
- - prolonging invitation validity by week
+An attempt to amend an invitation specified by email will result in:
+ - prolonging invitation validity by week (by default) or making it valid forever if adequate option is ticked
  - grant user administration privileges if adequate option is ticked
- - owner of invitation (inviter / invited by) is updated to current user
+ - owner of invitation (inviter / invited by) is changed to current user
+
+> {warning} Amending already claimed invitation is not allowed.
 
 <a name="recent"></a>
 ### Recent
 
-Listing displaying most recent invitations. Invitations that are claimed or expired are not listed.
+Listing displaying most recent invitations. Invitations that are consumed or expired are not listed.
 
 Table has following rows: 
 
@@ -58,4 +61,4 @@ Table has following rows:
 | invited by  | name (user-name) of administrator or project leader that created the invitation |
 | invited at  | date of creation                                                                |
 | updated at  | date of latest update                                                           |
-| valid until | asd
+| valid until | hourglass icon representing date until invitation is deemed as valid 			|
