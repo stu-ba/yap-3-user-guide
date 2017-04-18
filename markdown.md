@@ -5,6 +5,7 @@
 - [Examples](#examples)
     - [Headers](#headers)
     - [Paragraphs](#paragraphs)
+    - [Quotes](#quotes)
     - [Text style](#text-style)
     - [Lists](#lists)
         - [Itemized list](#itemized-list)
@@ -54,6 +55,34 @@ Use hash symbol `#` to indicate that you want to make text a heading.
 ### Paragraphs
 
 Paragraphs are divided by blank line.
+
+<a name="quotes"></a>
+### Quotes
+
+Quotes are nicely styled `<blockquotes>` with icons and colors.
+
+```markdown
+> {style} Education is what remains after one has forgotten what one has learned in school. -- Albert Einstein
+```
+
+> {video} Have you seen that?
+
+> {note} Buy 2 litres of milk.
+
+> {tip} Do not `$ rm -rf /`.
+
+> {warning} I told you so.
+
+> {github} The ultimate social network.
+
+> {overflow} You can find anything on SO.
+
+> {youtube} Lets procrastinate on YouTube.
+
+> {fork} Are we really forking today?
+
+> {link} I know only this one: `unlink()`.
+
 
 <a name="text-style"></a>
 ### Text style
