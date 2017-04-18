@@ -43,7 +43,7 @@ You may amend already issued invitation using [options](#tedious-options).
 
 An attempt to amend an invitation specified by email will result in:
  - prolonging invitation validity by week (by default) or making it valid forever if adequate option is ticked
- - grant user administration privileges if adequate option is ticked
+ - grant / refuse user administration privileges if adequate option is ticked / not ticked
  - owner of invitation (inviter / invited by) is changed to current user
 
 > {warning} Amending already claimed invitation is not allowed.
