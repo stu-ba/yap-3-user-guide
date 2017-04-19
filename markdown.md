@@ -22,12 +22,12 @@
 
 Markdown is a lightweight markup language with plain text formatting syntax. It's designed so that it can be converted to HTML and many other formats using a tool by the same name. 
 
-Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor. As the initial description of Markdown contained ambiguities and unanswered questions, many implementations and extensions of Markdown appeared over the years to answer these issues.
+Markdown is often used to format read-me files, for writing messages in on-line discussion forums, and to create rich text using a plain text editor. As the initial description of Markdown contained ambiguities and unanswered questions, many implementations and extensions of Markdown appeared over the years to answer these issues.
 
 <a name="installation-and-setup"></a>
 ## Installation & Setup
 
-Are you kidding? You need noting to use markup language like Markdown. Open up your favourite texteditor and write some markdown ([examples](/docs/markdown#examples)), save file as `.md` and you are done.
+Are you kidding? You need noting to use markup language like Markdown. Open up your favorite text editor and write some markdown ([examples](/docs/markdown#examples)), save file as `.md` and you are done.
 
 <a name="examples"></a>
 ## Examples
@@ -67,7 +67,7 @@ Quotes are nicely styled `<blockquotes>` with icons and colors.
 
 > {video} Have you seen that?
 
-> {note} Buy 2 litres of milk.
+> {note} Buy 2 liters of milk.
 
 > {tip} Do not `$ rm -rf /`.
 
@@ -123,7 +123,7 @@ Simply start with `1.` and continue numbering...
   2. two
 ```
 
-Looks like follwing
+Looks like following
 
   1. one
   2. two
@@ -143,14 +143,14 @@ You are welcome to nest lists:
 <a name="code"></a>
 ### Code
 
-Large blocks of codes start and end with three backticks ```.
+Large blocks of codes start and end with three back-ticks ```.
 
 ```
 #!/bin/sh
 echo "Hello world"
 ```
 
-Or with syntax higlighting for shell.
+Or with syntax highlighting for shell.
 
 ```shell
 #!/bin/sh

@@ -9,7 +9,7 @@
 <a name="introduction"></a>
 ## Introduction
 
-Commands are used to controll some parts of Yap application from command-line. Commands leverage Artisan command-line interface.
+Commands are used to control some parts of Yap application from command-line. Commands leverage Artisan command-line interface.
 
 > Artisan is the command-line interface included with Laravel. It provides a number of helpful commands that can assist you while you build your application.
 
@@ -47,7 +47,7 @@ $ php artisan yap:invitation <email>
 
 #### Example (shorten)
 
-In following example system creates an invitation that is indefinitely valid (in regards of time), sends email to **mr.dean@stuba.sk** and outputs invitation (registration) link to command line. 
+In following example system creates an invitation that is indefinitely valid (in regards of time), sends email to **mr.dean@stuba.sk** and outputs invitation (registration) link to the command line. 
 
 ```bash
 $ php artisan yap:invitation --indefinite mr.dean@stuba.sk
